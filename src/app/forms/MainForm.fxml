@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464" prefWidth="832" styleClass="">
+  <children>
+    <Panel backgroundColor="#27e8a7" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="400" layoutY="136" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="40" prefWidth="536" rotate="43.9" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Panel backgroundColor="#27e8a7" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panelAlt" layoutX="488" layoutY="88" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="40" prefWidth="504" rotate="43.9" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/grand-theft-auto-v-gta-5-online-gunrunning-smuggler-s-run-grand-theft-auto-san-andreas-playstation-4-others.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="472" id="image" layoutX="472" layoutY="-8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="360">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <HBox alignment="TOP_LEFT" focusTraversable="false" id="hboxAlt" layoutX="20" layoutY="16" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="704" spacing="5" style=".upbar-main {&#10;&#9;background-color: grey;&#10;}" styleClass="upbar-main ">
+      <children>
+        <FlatButton alignment="CENTER" borderRadius="7" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button" layoutX="0" layoutY="0" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="Магазин" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Arial Black" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/Wallet_duotone_line.png" id="data-button" visible="1"/>
+        <FlatButton alignment="CENTER" borderRadius="7" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="buttonAlt" layoutX="149" layoutY="0" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="Форум" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Arial Black" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/Chat_duotone_line.png" id="data-buttonAlt" visible="1"/>
+        <FlatButton alignment="CENTER" borderRadius="7" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button3" layoutX="298" layoutY="0" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="Сайт" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Arial Black" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/Chield_check_duotone_line.png" id="data-button3" visible="1"/>
+        <FlatButton alignment="CENTER" borderRadius="7" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button4" layoutX="447" layoutY="0" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="Новости" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+          <font>
+            <Font name="Arial Black" size="12"/>
+          </font>
+        </FlatButton>
+        <Data cursor="DEFAULT" enabled="1" graphic=".data/img/Order_duotone_line.png" id="data-button4" visible="1"/>
+      </children>
+    </HBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-hboxAlt" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="7" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button5" layoutX="752" layoutY="16" prefHeight="32" prefWidth="32" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/Setting_line_duotone_line.png" id="data-button5" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="7" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button6" layoutX="792" layoutY="16" prefHeight="32" prefWidth="32" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/Close_round_duotone.png" id="data-button6" visible="1"/>
+    <Panel backgroundColor="#333333" borderColor="#cccccc54" borderRadius="5" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel3" layoutX="24" layoutY="80" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="320" prefWidth="440" styleClass="" titleColor="#333333" titleOffset="10" titlePosition="TOP_LEFT">
+      <children>
+        <Data cursor="DEFAULT" enabled="1" id="data-panel4" visible="1"/>
+        <Panel borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel4" layoutX="-16" layoutY="32" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="272" prefWidth="440" styleClass="" title="Новости" titleColor="#ffffff" titleOffset="15" titlePosition="TOP_LEFT">
+          <children>
+            <TitledPane alignment="CENTER_LEFT" animated="true" collapsible="true" contentDisplay="LEFT" ellipsisString="...." expanded="false" focusTraversable="true" graphicTextGap="4" id="spoiler" layoutX="24" layoutY="0" prefHeight="272" prefWidth="416" styleClass="titled-pane " text="Обновление v0.1" textAlignment="LEFT" underline="false" wrapText="false">
+              <font>
+                <Font name="Malgun Gothic Bold" size="12"/>
+              </font>
+              <content>
+                <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="20" prefWidth="414" styleClass="">
+                  <padding>
+                    <Insets bottom="9.6" left="9.6" right="9.6" top="9.6"/>
+                  </padding>
+                  <children/>
+                </AnchorPane>
+              </content>
+            </TitledPane>
+            <Data cursor="DEFAULT" enabled="1" id="data-spoiler" tooltipText="" visible="1"/>
+          </children>
+          <titleFont>
+            <Font name="Arial Black" size="18"/>
+          </titleFont>
+        </Panel>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel3" visible=""/>
+    <FlatButton alignment="CENTER" borderRadius="7" color="#6680e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button7" layoutX="656" layoutY="384" prefHeight="40" prefWidth="168" styleClass="x-flat-button " text="Играть" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Arial Black" size="15"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button7" visible="1"/>
+    <ComboBox editable="false" focusTraversable="true" id="combobox" layoutX="664" layoutY="432" prefHeight="25" prefWidth="152" promptText="" styleClass="combo-box-base combo-box " value="Выберете сервер" visibleRowCount="10">
+      <items xmlns:fx="http://javafx.com/fxml">
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Тест"/>
+          <String fx:value="Тест"/>
+          <String fx:value="Тест"/>
+          <String fx:value="Тест"/>
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-combobox" visible="1"/>
+    <ProgressBar focusTraversable="false" id="progressBar" layoutX="24" layoutY="424" prefHeight="24" prefWidth="472" progress="0" styleClass="progress-bar "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-progressBar" visible="1"/>
+  </children>
+</AnchorPane>

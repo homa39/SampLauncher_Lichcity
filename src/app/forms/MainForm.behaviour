@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="image">
+    <behaviour level="0.080487804878049" type="behaviour\custom\GlowEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

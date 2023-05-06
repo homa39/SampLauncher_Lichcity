@@ -1,0 +1,9 @@
+/* JavaFX CSS Style with -fx- prefix */
+@font-face {
+    -fx-font-family: 'Comfortaa'; /* Здесь вводим имя шрифта */
+    src: url('/.data/Comfortaa-VariableFont_wght.ttf'); /* Путь к файлу со шрифтом, начиная от src, протокол res:// не нужен !!! */
+}
+
+.x-flat-button {
+    -fx-font-family: 'Comfortaa';
+}

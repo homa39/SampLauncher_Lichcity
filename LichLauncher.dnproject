@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="Amir" authorOS="Windows 10" createdAt="1683312402386" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="LichLauncher" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1683382533262">
+<project author="Amir" authorOS="Windows 10" createdAt="1683312402386" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="LichLauncher" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1683394929890">
   <tree>
     <expanded>
     <path src=""/>
-      <path src="/assets"/>
-      <path src="/src"/>
-      <path src="/src/.data"/>
-      <path src="/src/.theme"/>
-      <path src="/src/app"/>
-      <path src="/src/app/forms"/>
-      <path src="/src/app/modules"/>
     </expanded>
   </tree>
   <openedFiles>

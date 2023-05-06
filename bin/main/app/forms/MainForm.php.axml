@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doShowing">
+      <fadeIn continue="" continue-type="" duration="1500" duration-type="integer" object="hboxAlt" object-type="object"/>
+    </method>
+  
+  <method name="doButton6Action">
+      <openFileMedia autoplay="1" autoplay-type="flag" id="general" id-type="string" source="assets/320181__dland__hint.wav" source-type="string"/>
+      <sleep sync="1" sync-type="" value="1350" value-type="integer"/>
+      <applicationShutdown/>
+    </method>
+  
+  <method name="doButton4Action">
+      <elementToggle object="panel3" object-type="object"/>
+    </method>
+  
+  </class>
+</root>
